@@ -25,6 +25,6 @@ The HDRManager to PhDProgram would have 1 to 1 relationship while the otherway a
 "requestEnrollThesis() would be added to student as well void setStudentThesis()"
 Student would request to enroll in a thesis by requestEnrollThesis()
 This goes to the HDRManager who then checks to see if the code exists by getThesisCode()
-if getThesisCode returns null HDRManager returns an error.
+If getThesisCode returns null HDRManager returns an error.
 If getThesisCode() returns a value HDRmanager uses setStudentThesis() to enroll the student.
 ```
