@@ -27,4 +27,5 @@ Student would request to enroll in a thesis by requestEnrollThesis()
 This goes to the HDRManager who then checks to see if the code exists by getThesisCode()
 If getThesisCode returns null HDRManager returns an error.
 If getThesisCode() returns a value HDRmanager uses setStudentThesis() to enroll the student.
+NOTE DID NOT CHANGE PARTTIMESTUDNET MULTPLICTY ON PURPOSE
 ```
